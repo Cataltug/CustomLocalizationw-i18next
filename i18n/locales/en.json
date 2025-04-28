@@ -1,3 +1,27 @@
 {
-    "home.header.title": "Home"
-}
+    "home": {
+        "header": {
+            "title": "Home"
+            }
+        },
+    "iban": {
+      "header": "IBAN Validator",
+      "input": {
+        "placeholder": "Enter your IBAN"
+    },
+      "button": {
+        "validate": "Validate"
+      },
+      "alert": {
+        "valid": "Valid IBAN",
+        "invalid": "Invalid IBAN"
+      },
+      "error": {
+        "invalidStart": "Must start with ‘TR’",
+        "invalidSpacing": "Spaces required every 4 characters",
+        "tooLong": "You’ve exceeded the character limit",
+        "invalidChars": "Only digits allowed",
+        "invalid": "Invalid IBAN"
+      }
+    }
+  }

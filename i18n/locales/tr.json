@@ -1,3 +1,27 @@
 {
-    "home.header.title": "Anasayfa"
-}
+    "home": {
+        "header": {
+            "title": "Anasayfa"
+            }
+        },
+    "iban": {
+      "header": "IBAN Doğrulayıcı",
+      "input": {
+        "placeholder": "IBAN numaranızı girin"
+    },
+    "button": {
+      "validate": "Doğrula"
+    },
+    "alert": {
+      "valid": "IBAN geçerli",
+      "invalid": "IBAN geçersiz"
+    },
+      "error": {
+        "invalidStart": "IBAN ‘TR’ ile başlamalı",
+        "invalidSpacing": "Her 4 karakterden sonra boşluk olmalı",
+        "invalidChars": "Sadece rakam girebilirsiniz",
+        "tooLong": "Maksimum karakter sayısını aştınız",
+        "invalid": "Geçersiz IBAN"
+      }
+    }
+  }
