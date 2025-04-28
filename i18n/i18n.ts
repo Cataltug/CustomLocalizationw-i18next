@@ -12,13 +12,19 @@ i18n
   // @ts-ignore
   .init({
     resources: {
-      en: { translation: enTranslation },
-      tr: { translation: trTranslation },
+      en: {
+        translation: enTranslation
+    },
+      tr: {
+        translation: trTranslation
+    },
     },
 
     lng: getLocales()[0].languageCode,
     fallbackLng: "en",
-    interpolation: { escapeValue: false },
+    interpolation: {
+        escapeValue: false
+    },
   });
 
 export default i18n;

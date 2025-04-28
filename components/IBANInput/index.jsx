@@ -21,10 +21,10 @@ export default function IBANInput() {
     const afterTR = text.slice(2);
 
     if (/[^0-9 ]/.test(afterTR)) {
-      return t('iban.error.invalidChars');
+      return t("iban.error.invalidChars");
     }
 
-    const parts = text.split(' ');
+    const parts = text.split(" ");
 
     for (let i = 0; i < parts.length - 1; i++) {
       if (parts[i].length !== GROUP_SIZE) {
